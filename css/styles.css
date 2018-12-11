@@ -1,0 +1,430 @@
+
+/***** BODY STYLES ******/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 200vh;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+body a {
+  font-family: 'Noto Sans TC', sans-serif;
+  color: white;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.actionswrapper {
+  overflow: hidden;
+}
+
+/***** BODY STYLES ******/
+
+img {
+  display: block;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  width: 50%;
+  margin: 0;
+
+}
+
+h2 {
+  margin: 0px;
+
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.cta {
+  font-size: 20px;
+}
+
+.sub-hero {
+  color: black;
+  font-weight: 200px;
+}
+
+.sub-hero a {
+  color: black;
+  text-decoration: none;
+}
+
+.sub-hero .bigletter {
+  font-size: 60px;
+}
+
+.productcardtitle {
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/***** HEADER STYLES ******/
+  
+header {
+  background-color: #9674CC;
+  margin: 0px
+}
+
+header .container ul {
+  display: flex;
+  justify-items: flex-end;
+  padding: 10px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  display: inline-block; 
+  text-align: right;
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.container li:last-child {
+  margin-bottom: 0px;
+}
+
+/***** HERO STYLES ******/
+
+.hero {
+  background-color: #9674CC;
+}
+
+.hero .container {
+  position: relative;
+  display: flex;
+  padding-bottom: 44px;
+}
+
+.hero img {
+  margin: 20px auto;
+  height: 100%;
+}
+
+.hero-text {
+  padding: 20px;
+  width: 50vw;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.hero-text h2 {
+  padding-top: 100px;
+}
+
+.hero-text a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+
+
+
+/***** PRODUCTS STYLES ******/
+
+section.products {
+  display: flex;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.columnitems {
+  background-color: red;
+  width: 100%;
+  flex-basis: 50%;
+}
+
+.yellow {
+  background-color: #F8E71C;
+  /* width: 50%; */
+  flex-basis: 50%;
+}
+
+.yellow img {
+  width: 100%;
+  vertical-align: baseline;
+
+}
+
+.pink {
+  background-color: #FF2F5C;
+  /* flex-basis: 50% */
+}
+
+.pink h2 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.pink p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.columnitems.dave {
+  display: flex;
+}
+
+.gg-child {
+  flex-direction: row;
+  flex-basis: 50%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.brightpink {
+  background-color: #FF499F;
+  flex-basis: 50%;
+  display: block;
+  padding: 70px 0;
+}
+
+.brightpink:hover {
+  background-color: #6dc0ec;
+}
+
+.greenproduct:hover {
+  content: url("./images/Kodo_Green_Open_V1A.png") no-repeat;
+}
+
+.productshot {
+  height: 265px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.green {
+  background-color: #00D980;
+  flex-basis: 50%;
+  display: block;
+  padding: 70px 0;
+}
+
+.green:hover {
+  background-color: #fff68f
+}
+
+
+
+.cta {
+  margin: 0 auto;
+  text-decoration: none;
+  width: 90%;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue {
+  background-color: #02A5D4;
+  flex-basis: 25%;
+  display: block;
+  padding: 70px 0;
+}
+
+.blue:hover{
+  background-color: #9674CC;
+}
+
+
+.orange {
+  background-color: #FF805A;
+  flex-basis: 25%;
+  display: block;
+  padding: 70px 0;
+}
+
+.orange:hover {
+  background-color: #2ce28c;
+}
+
+
+.mint {
+  background-color: #8eabbc;
+  flex-basis: 50%;
+}
+
+.mint img{
+  width: 100%;
+}
+
+
+/***** TEASER STYLES ******/
+
+.teasers {
+  background-color: #EEF2F0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.teaser img {
+  width: 100%;
+}
+
+
+/***** SIGN UP STYLES ******/
+
+.sign-up {
+  background-color: black;
+}
+
+.sign-up .container {
+  display: flex;
+}
+
+.socialicons {
+  flex-basis: 25%;
+  padding: 30px;
+}
+
+.socialicons ul {
+  padding: 0;
+}
+
+.form {
+  flex-basis: 75%;
+  padding: 40px;
+}
+.
+
+
+
+
+
+/***** ABOUT STYLES ******/
+.about {
+  background-color: #FF2E5C;
+  padding: 20px; 
+  width: auto;
+  }
+
+.about h1 {
+  width: auto;
+}
+.about p {
+  margin: 0;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about2 {
+  background-color: #FFF099;
+  padding: 20px; 
+  width: auto;
+  }
+
+
+.hero-carousel {
+  width: auto;
+  margin: 0 auto;
+}
+
+.hero-carousel div {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hide {
+  display: none;
+}
+
+
+/***** OTHER DEVICES STYLES ******/
+
+ @media (max-width: 760px) {
+    
+  .sign-up {
+    background-color: #EEF2F0;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .sign-up .container {
+    display: inline-block;
+    background-color: #FF49AE;
+    padding: 15px;
+  }
+  
+  .sign-up .container ul {
+    background-color: #FF49AE;
+  }
+  
+  .container .socialicons ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: center;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  
+  .socialicons li {
+    padding: 0px;
+  
+  }
+  
+  .socialicons p {
+    font-size: 12px;
+  }
+  
+  input[type=text] {
+    background-color: #FF49AE;
+    margin: 20px;
+  }
+
+  .productcardtitle {
+    font-size: 20px;
+  }
+
+  a .cta {
+    font-size: 12px;
+  }
+
+}
+
+  
